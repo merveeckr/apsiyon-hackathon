@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ulaşım Sistemi</title>
+    <link rel="stylesheet" href="taşınma.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Taşıma Bizim İşimiz!</h1>
+            <p>Ulaşım tipini seçiniz ya da anlık konuma ulaşın!</p>
+            <div class="search-box">
+
+                <select id="transportType" onchange="handleTransportTypeChange()">
+                    <option value="service">Servis</option>
+                    <option value="freight">Taşınma</option>
+                    <option value="location">Anlık Konum</option>
+                </select>
+                <button onclick="showResults()">Ara</button>
+            </div>
+            <div class="results" id="results"></div>
+        </div>
+    </div>
+
+    <script src="taşınma.js"></script>
+</body>
+</html>

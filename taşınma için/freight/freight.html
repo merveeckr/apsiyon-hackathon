@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="freight.css">
+    <title>Taşınma</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Taşınma Sistemi</h1>
+            <p>Lütfen bilgileri doldurup randevu alınız.</p>
+            <div class="freight-box">
+                <input type="text" id="currentLocation" placeholder="Anlık Konum">
+                <input type="text" id="destination" placeholder="Varış Noktası">
+                <select id="materialsAmount">
+                    <option hidden >Mobilya Miktarı</option>
+                    <option value="little">Az</option>
+                    <option value="medium">Orta</option>
+                    <option value="a_lot">Çok</option>
+                </select>
+                <input type="date" id="moveDate">
+                <input type="time" id="moveTime">
+
+
+                <button onclick="showResults()">Randevu Oluştur</button>
+            </div>
+            <div class="makeApp" id="makeApp"></div>
+        </div>
+    </div>
+</body>
+</html>

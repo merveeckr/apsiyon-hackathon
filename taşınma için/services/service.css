@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+.container {
+    background: #1a3b6e;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.content {
+    max-width: 600px;
+}
+
+.content p {
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+}
+.service-box {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-box input   {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.service-box button {
+    padding: 10px 20px;
+    background: #1a3b6e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+.service-box button:hover {
+    background: #163358;
+}
+.makeApp {
+    margin-top: 20px;
+}
