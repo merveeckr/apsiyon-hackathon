@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2C3E50;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    background: #fff;
+    color: #333;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.main-heading {
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #000080; /* Navy blue color */
+}
+.redirect-link {
+    padding: 10px 20px;
+    background-color: #2980b9;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    top: 30px; 
+}
+
+.redirect-link:hover {
+    background-color: #0056b3;
+    
+}
+.text-align {
+    padding-top: 40px;   
+}
+
+h2 {
+    font-size: 15px;
+    margin-top: 0;
+}
+
+p {
+    font-size: 16px;
+}
+
+.input-section {
+    margin-bottom: 20px;
+}
+
+.custom-file-upload {
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #2980b9;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.custom-file-upload:hover {
+    background-color: #3498db;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+textarea {
+    display: block;
+    width: 98%; 
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    height: 100px;
+}
+
+
+.viewer {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.sample-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.text-display {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    min-height: 50px;
+    white-space: pre-wrap;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+.fake-button {
+    background-color: #2980b9;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.fake-button:hover {
+    background-color: #3498db;
+}
