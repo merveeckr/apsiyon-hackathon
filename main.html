@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apsiyon Hackathon</title>
+    <link rel="stylesheet" href="daire.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <h2>Apsiyon</h2>
+            <h3>Hackathon</h3>
+            <p>Maltepe - İstanbul</p>
+        </div>
+        <ul class="sidebar-menu">
+            <li>Özet</li>
+            <li>Site</li>
+            <li class="dropdown">Finans
+                <ul class="dropdown-menu">
+                    <li>Kişilere Göre Finansal Durum</li>
+                    <li>Borçlandırma ve Tahsilat</li>
+                    <li>Gider</li>
+                    <li>Gelir</li>
+                    <li>Banka Hareketleri</li>
+                    <li>Alacaklı Bakiye Virmanı (Beta)</li>
+                    <li>Açılış Fişleri</li>
+                    <li>Kasa Transfer Fişi</li>
+                    <li>Hesaplar Arası Virman</li>
+                    <li>Virman Fişi Detayları Yönetimi</li>
+                    <li>İcra Takibi</li>
+                    <li>Çek ve Senet</li>
+                    <li>İşletme Projesi</li>
+
+                </ul>
+            </li>
+            <li>Muhasebe</li>
+            <li>Raporlar</li>
+            <li>Güvenlik</li>
+            <li>Teknik</li>
+            <li>Tanımlar</li>
+            <li>İletişim</li>
+            <li>Web Sitesi</li>
+            <li>Sigorta</li>
+            <li class="dropdown">Acil Durum
+                <ul class="dropdown-menu">
+                    <li class="acil1">Deprem
+                        <ul class="acil1-menu">
+                            <li><a onclick="window.location.href='e devlet/index.html';" >Acil Durum Planlaması</a></li>
+                            <li>Binanın Deprem Sertifikası</li>
+                        </ul>
+                    <li class="acil2">Yangın
+                        <ul class="acil2-menu">
+                            <li><a onclick="window.location.href='e devlet/index.html';" >Acil Durum Planlaması</a></li>
+                            <li>İlk Yardım</li>
+                            <li>Yangın Söndürme Tüplerinin Konumu</li>
+                        </ul>
+                    <li>Genel Bilgilendirme</li>
+                    <li>Asansör Bakım Sertifikası</li>
+                    <li>Ecza Dolabı Konumları ve Malzemeleri</li>
+                </ul>
+            <li><a onclick="window.location.href='taşınma için/taşınma.html';">Taşıma</a></li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <div class="header">
+            <input type="text" placeholder="Kişi, daire, evrak veya yardım ara">
+        </div>
+        <div class="content">
+            <ul>
+                <li><a href="#" class="round red" onclick="sendNotification()">ACİL<span class="round">Lütfen acil olmadıkça basmayınız. </span></a></li>    
+                <li><a class="round green" onclick="window.location.href='e devlet/index.html'">Toplanma Alanı<span class="round">Toplanma alanınızı sorgulamak için basınız. </span></a></li>  
+            </ul>
+        </div>
+         
+    </div>
+    
+    
+    
+    
+        
+
+    
+
+    <script src="daire.js"></script>
+</body>
+</html>
